@@ -8,56 +8,65 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_back"
+        android:padding="50dp"
         android:text="STEP 2 REGISTER"
         android:textColor="@android:color/black"
-        android:padding="50dp"
-        android:drawableStart="@drawable/ic_back"
         android:textSize="22sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:orientation="vertical"
         android:padding="16dp"
-        android:layout_centerInParent="true"
         tools:context=".MainFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/halo"
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/edt_password_register"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:padding="10dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
-            android:textSize="14sp"
-            android:inputType="textPassword"
             android:background="@drawable/border_grey"
-            android:hint="Password" />
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="14sp" />
 
         <EditText
             android:id="@+id/edt_confirm_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:padding="10dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
-            android:textSize="14sp"
-            android:inputType="textPassword"
             android:background="@drawable/border_grey"
-            android:hint="Confirm Password" />
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_finish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
-            android:textColor="@android:color/white"
             android:background="@drawable/background_blue"
-            android:text="Finish"/>
+            android:text="Finish"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
