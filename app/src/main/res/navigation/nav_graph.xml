@@ -8,31 +8,47 @@
         android:id="@+id/mainFragment3"
         android:name="com.nugrahaa.registrasinavigationapp.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment3_to_register1Fragment3"
-            app:destination="@id/register1Fragment3" />
+            app:destination="@id/register1Fragment3"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
         <action
             android:id="@+id/action_mainFragment3_to_homeFragment4"
-            app:destination="@id/homeFragment4" />
+            app:destination="@id/homeFragment4"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
     </fragment>
     <fragment
         android:id="@+id/register1Fragment3"
         android:name="com.nugrahaa.registrasinavigationapp.Register1Fragment"
         android:label="fragment_register1"
-        tools:layout="@layout/fragment_register1" >
+        tools:layout="@layout/fragment_register1">
         <action
             android:id="@+id/action_register1Fragment3_to_register2Fragment3"
-            app:destination="@id/register2Fragment3" />
+            app:destination="@id/register2Fragment3"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
     </fragment>
     <fragment
         android:id="@+id/register2Fragment3"
         android:name="com.nugrahaa.registrasinavigationapp.Register2Fragment"
         android:label="fragment_register2"
-        tools:layout="@layout/fragment_register2" >
+        tools:layout="@layout/fragment_register2">
         <action
             android:id="@+id/action_register2Fragment3_to_resultFragment3"
-            app:destination="@id/resultFragment3" />
+            app:destination="@id/resultFragment3"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
     </fragment>
     <fragment
         android:id="@+id/resultFragment3"
