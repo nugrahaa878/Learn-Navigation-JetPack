@@ -20,8 +20,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:layout_centerInParent="true"
-        tools:context=".MainFragment">
+        android:layout_centerInParent="true">
 
         <EditText
             android:id="@+id/edt_name"

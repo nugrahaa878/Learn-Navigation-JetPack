@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment3">
+    <fragment
+        android:id="@+id/mainFragment3"
+        android:name="com.nugrahaa.registrasinavigationapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment3_to_register1Fragment3"
+            app:destination="@id/register1Fragment3" />
+        <action
+            android:id="@+id/action_mainFragment3_to_homeFragment4"
+            app:destination="@id/homeFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/register1Fragment3"
+        android:name="com.nugrahaa.registrasinavigationapp.Register1Fragment"
+        android:label="fragment_register1"
+        tools:layout="@layout/fragment_register1" >
+        <action
+            android:id="@+id/action_register1Fragment3_to_register2Fragment3"
+            app:destination="@id/register2Fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/register2Fragment3"
+        android:name="com.nugrahaa.registrasinavigationapp.Register2Fragment"
+        android:label="fragment_register2"
+        tools:layout="@layout/fragment_register2" >
+        <action
+            android:id="@+id/action_register2Fragment3_to_resultFragment3"
+            app:destination="@id/resultFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment3"
+        android:name="com.nugrahaa.registrasinavigationapp.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/homeFragment4"
+        android:name="com.nugrahaa.registrasinavigationapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>
