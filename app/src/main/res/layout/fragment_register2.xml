@@ -6,6 +6,7 @@
     tools:context=".Register2Fragment">
 
     <TextView
+        android:id="@+id/tv_back_register2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_back"
